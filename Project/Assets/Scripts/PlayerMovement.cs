@@ -50,10 +50,10 @@ public class PlayerMovement : MonoBehaviour
 
         moveDirection = new Vector2(moveX, moveY).normalized;
 
-        if(moveX < 0 && isFacingRight)
+        /*if(moveX < 0 && isFacingRight)
             Flip();
         else if(moveX > 0 && !isFacingRight)
-            Flip();
+            Flip();*/
     }
 
     private void Move()
@@ -96,6 +96,4 @@ public class PlayerMovement : MonoBehaviour
             dashCoolCounter -= Time.fixedDeltaTime;
         }
     }
-
-
 }
