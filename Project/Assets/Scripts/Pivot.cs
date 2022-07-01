@@ -10,7 +10,7 @@ public class Pivot : MonoBehaviour
     private bool isFacingRight = true;
 
     private void Update() {
-        Debug.Log(difference);
+        //Debug.Log(difference);
 
         if(difference.x < 0.0f && isFacingRight == true)
         {
