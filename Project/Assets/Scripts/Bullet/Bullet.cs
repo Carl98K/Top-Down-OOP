@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class Bullet : MonoBehaviour
 {
+    public int BulletDamage { get; private set; } = 1;
+
     [SerializeField] private float bulletSpeed = 5f;
 
     private void Update() 

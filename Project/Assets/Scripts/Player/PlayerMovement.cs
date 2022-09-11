@@ -22,7 +22,6 @@ public class PlayerMovement : MonoBehaviour
     private void Start()
     {
         activeMoveSpeed = moveSpeed;
-        Debug.Log("Hi");
     }
 
     private void Update()
